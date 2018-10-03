@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+*{
+ 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.signup-form-section{
+
+overflow: hidden;
+}
+
+.logo-area-section{
+    width: 40%;
+    float: left;
+    background: #0093FF;
+    height: 100vh;
+    position: relative;
+}
+
+.logo-area{
+
+width: 380px;
+
+color: #fff;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%,-50%);
+}
+.logo{width: 100px;margin-bottom: 35px;}
+.logo img{}
+.text{}
+.text h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.signup-section{
+
+width: 60%;
+
+float: left;
+
+height: 100vh;
+
+position: relative;
+}
+.from-section{
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.from-section strong{
+    margin-bottom: 50px;
+    display: block;
+}
+form{}
+form input{
+    width: 100%;
+    border: 0;
+    background: #F7F7F7;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+form input[type="submit"]{
+    width: auto;
+    padding: 8px 15px;
+    background: #0093ff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.other-registration{
+    margin-top: 40px;
+}
+.other-registration span{
+    float: left;
+    font-size: 15px;
+}
+.other-registration ul{
+    margin: 0;
+    padding: 0;
+}
+.other-registration ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.other-registration ul li a{
+    text-decoration: none;
+    color: #0093ff;
+    font-size: 15px;
+}
